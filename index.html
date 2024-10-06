@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blush Blooms" />
+    <title>Blush Blooms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- --------------Container---------------- -->
+
+    <div class="container">
+      <nav class="navbar">
+        <h2>Blush Blooms</h2>
+        
+
+        <ul class="nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="#newArrival">Shop</a></li>
+          <li class="active"><a href="#about">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+          <a href="wishlist.html"
+            ><i title="Wishlist" id="wishlist" class="fa-regular fa-heart"></i
+          ></a>
+          <a href="cart.html"
+            ><i title="Cart" id="cart" class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </ul>
+
+        <span class="menu-icon" id="menuIcon">&#9776;</span>
+
+        <ul class="mobile-nav" id="mobileNav">
+          <li><a id="homebtn" href="index.html">Home</a></li>
+          <li><a id="shopbtn" href="index.html">Shop</a></li>
+          <li><a id="aboutbtn" href="about.html">About</a></li>
+          <li><a id="contactbtn" href="contact.html">Contact</a></li>
+          <li><a id="wishlistbtn" href="#wishlist">Wishlist</a></li>
+          <li><a id="cartbtn" href="cart.html">Cart</a></li>
+          <button class="close-btn" id="closeBtn">&times;</button>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <p>ENTER THE WORLD OF PERFECT BOUQUETS</p>
+        <h1>Let's make exquisite bouquets a part of your cherished moments</h1>
+        <p>
+          Discover a stunning collection of handcrafted bouquets designed to
+          bring elegance and charm to any occasion. Whether it's a celebration,
+          a token of appreciation, or a thoughtful gesture, our bouquets are
+          crafted with care to express your sentiments beautifully.
+        </p>
+        <a href="#newArrival"><button class="btn">SHOP NOW</button></a>
+      </div>
+    </div>
+
+    <!-- --------------Co-container---------------- -->
+
+    <div class="co-container">
+      <section class="co">
+        <h5>01</h5>
+        <h4>Order Online</h4>
+        <p>
+          Experience the ease of ordering your favorite bouquets from the
+          comfort of your home. Browse our collection, customize your selection,
+          and have your handcrafted arrangement delivered to your door.
+        </p>
+      </section>
+      <section class="co">
+        <h5>02</h5>
+        <h4>Free Shipping</h4>
+        <p>
+          Enjoy free shipping on all orders, bringing fresh and beautifully
+          arranged bouquets straight to you, no matter where you are.
+        </p>
+      </section>
+      <section class="co">
+        <h5>03</h5>
+        <h4>More Freshness</h4>
+        <p>
+          Our bouquets are made with the freshest flowers, ensuring vibrant
+          colors and longer-lasting beauty. Each bouquet is handpicked and
+          arranged to perfection, just for you
+        </p>
+      </section>
+      <section class="co">
+        <h5>04</h5>
+        <h4>Safe Payment</h4>
+        <p>
+          Shop confidently with our secure payment options. Your personal and
+          financial information is always protected, giving you peace of mind
+          while you order your bouquets.
+        </p>
+      </section>
+    </div>
+
+    <!-------------- About ---------------->
+
+    <div id="about">
+      <section class="boquetOnTable">
+        <img
+          id="firstpic"
+          class="first-pic"
+          src="perfectWomanInBotique.png"
+          alt="flowersOnTable"
+        />
+      </section>
+
+      <section class="womanInBotique">
+        <img
+          src=" blushBlooms.png"
+          alt="womanInBotique"
+          class="second-pic"
+          id="secondpic"
+        />
+      </section>
+
+      <section class="about-info">
+        <h6>ABOUT BLUSH BLOOMS</h6>
+        <h2>Where Every Bouquet Tells a Story</h2>
+        <p>
+          Welcome to Blush Blooms, your premier bouquet boutique, where we
+          specialize in turning nature's most beautiful creations into exquisite
+          floral arrangements. Our passion for flowers is woven into every
+          bouquet we craft, making each piece a unique work of art designed to
+          celebrate life's most cherished moments.
+        </p>
+        <a id="read-more" href="about.html">Read More</a>
+      </section>
+    </div>
+
+    <!-- --------------New Arrival---------------- -->
+
+    <div class="newArrival" id="newArrival">
+      <section class="info">
+        <h3>New Arrivals</h3>
+        <h1>Discover the Latest Additions at Your Top Choice Flower Shop</h1>
+      </section>
+
+      <section class="items">
+        <article class="item">
+          <img id="b1" src="b1.avif" alt="b1" />
+          <h5>Roses Bouquet</h5>
+          <p id="rating">★★★☆☆</p>
+          <p>₹ <span id="price">499</span></p>
+          <button value="499" class="cartBtn">Add to Cart</button>
+          <button value="499" class="wishBtn">Add To Wishlist</button>
+        </article>
+      </section>
+    </div>
+
+    <div class="customerReviews">
+      <section class="info">
+        <h3>TESTIMONAILS</h3>
+        <h1>What Our Customers Say About Us</h1>
+      </section>
+      <section class="reviews">
+        <section>
+          <p id="rating">★★★★☆</p>
+          <p>
+            I am so happy with my order. It arrived on time and in perfect
+            condition. I highly recommend this shop.
+          </p>
+          <div class="person">
+            <img id="customer1" src="customer1.png" alt="customer1" />
+            <div>
+              <h5>John Doe</h5>
+              <p>Customer</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <p id="rating">★★★★★</p>
+          <p>
+            I am buying flowers from this shop. They are so beautiful and
+            elegant. Blush Blooms is the best.
+          </p>
+          <div class="person">
+            <img id="customer2" src="customer2.png" alt="customer2" />
+            <div>
+              <h5>John Doe</h5>
+              <p>Customer</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <button class="btn">Write a Review</button>
+    </div>
+
+    <!-- -----------------Offer----------------- -->
+
+    <div class="off">
+      <!-- <section class="logo"> -->
+      <img src="blushBloomsLogo2.png" alt="blushBloomsLogo2" />
+      <!-- </section>
+      <section class="offDetails"> -->
+      <h5>SPECIAL OFFER</h5>
+      <h1>Experience the Art of Flowers: 20% Off on Your First Purchase!</h1>
+      <a href="#newArrival"><button class="btn">SHOP NOW</button></a>
+      <!-- </section> -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
